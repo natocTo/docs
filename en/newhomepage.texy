@@ -8,17 +8,7 @@
 - [Introduction | Getting Started]  to Nette Framework
 - **[Create Your First Application! | quickstart] .[main]**
 
-[* icon-ruler.png *] Contributting
-==============
-
-- How to contribute to:
-	- [packages | www:contributing]
-	- [documentation | www:writing]
-- [Coding Standards | www:coding-standard]  - a few rules
-- [Contributors | https://nette.org/contributors] - 
-
 \--
-
 
 /---div .[column navig]
 
@@ -27,11 +17,29 @@
 - [Packages | www:#features] - browse all nette packages
 - [Features | www:#features] - look at our advantages
 - [Glossary] - list of basic terms
-- [FAQ | Troubleshooting] - decrease learning curve 
+- [FAQ | Troubleshooting] - decrease learning curve
 - [License | www:license] - follow Nette licence
 
+\---
+\---
 
-[* icon-ruler.png *] Developers
+/---div .[row]
+/---div .[column navig]
+
+Contributting
+==============
+
+- How to contribute to:
+	- [packages | www:contributing]
+	- [documentation | www:writing]
+- [Coding Standards | www:coding-standard]  - a few rules
+- [Contributors | https://nette.org/contributors]
+
+\---
+
+/---div .[column navig]
+
+Developers
 =============
 
 - [API Reference | https://api.nette.org/] - overview of classes and methods
@@ -42,120 +50,124 @@
 \---
 \---
 
+-----
+
 /---div .[row]
 /---div .[column navig]
 
-[* icon-guides.png *] Packages .{margin-top: 0}
-===============
-
-Application
+[Application]
 --------------
 
 - [MVC | presenters]
-- [Presenters | presenters] 
+- [Presenters | presenters]
 - [Components and Controls | components]
 - [Routing]
 - [AJAX]
 - [Multiplier]
 
-Forms
---------------
-
-- [Forms]
-
-Latte
+[Latte]
 --------------
 
 - [Templates | latte:]
 - [Latte Macros | latte:macros]
 - [Filters | latte:filters]
 
-Database
---------------
-
-- [Database], [Database Core] and [Database Explorer]
-
-DI (dependency injection)
--------------------------
+[DI (dependency injection)] .{toc: DI}
+-------------------------------------
 
 - [Configuration | configuring]
 - [Dependency Injection]
 - [Getting Dependencies |di-usage]
 - [DI extensions]
 
-Tracy
------------
-
-- [Debugging and Error Handling | tracy:]
-- [Debugger extensions | tracy:extensions]
-
-HTTP
-------------
-
-- [HTTP request & response]
-- [Sessions]
-
-Security
+[Security]
 --------------
 
 - [User Authentication & Authorization | access-control]
 - [Password | passwords]
 
-Mail
+[Mail]
 -----------
 
 - [Mailing | mailing]
 
-Utils
---------------------
-
-- [PHP Language Enhancements] (Nette\SmartObject)
-- [Validation | validators]
-- [Pagination]
-- [Localization]
-- [JSON]
-- [Image Manipulation | images]
-- [Utils]
-	- [strings]
-	- [random strings | random]
-	- [arrays]
-	- [HTML elements]
-	- [DateTime]
-	- [URLs]
-
-Caching
+[Caching]
 -------------
 
 - [Caching]
 
-Robot Loader
+[Robot Loader]
 -------------------
 
 - [RobotLoader: class autoloading |robotloader]
 
 
-NEON
+[NEON]
 ----------
 
 - [NEON]
 
-Finder
-------------
-
-- [Browsing files on disk | finder]
-
-Safe Stream
-------------------
-
-- [Atomic Operations | atomicity]
-
-Tester
+[Tester]
 ------------
 
 - [Testing | tester:]
 - [Continuous integration | tester:testing-with-travis]
 
-Tools
+\---
+
+/---div .[column navig]
+
+[Forms]
+--------------
+
+- [Forms]
+
+[Database]
+--------------
+
+- [Database]
+- [Database Core]
+- [Database Explorer]
+
+[Tracy]
+-----------
+
+- [Debugging and Error Handling | tracy:]
+- [Debugger extensions | tracy:extensions]
+
+[HTTP]
+------------
+
+- [HTTP request & response]
+- [Sessions]
+
+[Utils]
+-------
+
+- [PHP Language Enhancements] (Nette\SmartObject)
+- [Validation | validators]
+- [Pagination]
+- [Localization] - translate everything
+- [JSON]
+- [Images| images] - crop, resize, rotate images
+- [Strings] - useful text transpilers
+- [Random| random] - generate random strings
+- [Arrays] - cut items in array
+- [HTML] - generate html elements
+- [DateTime] -
+- [URLs] - parse and generate valid URL addresses
+
+[Finder]
+------------
+
+- [Browsing files on disk | finder]
+
+[Safe Stream]
+------------------
+
+- [Atomic Operations | atomicity]
+
+[Tools]
 ------
 
 - [Code-Checker]
